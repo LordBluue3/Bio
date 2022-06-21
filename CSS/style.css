@@ -1,11 +1,54 @@
+@media(max-width: 1500px) {
+    a {
+        padding-left: 5%;
+        padding-right: 5%;
+        
+    }
+}
+@media(max-width: 2000px) {
+    main {
+        padding-top: 5%;
+        text-align: center;
+        padding-left: 40%;
+        padding-right: 40%;
+        
+    }
+}
+@media(max-width: 1670px) {
+    main {
+        padding-top: 5%;
+        text-align: center;
+        padding-left: 35%;
+        padding-right: 35%;
+        
+    }
+}
+@media(max-width: 1080px) {
+    main {
+        padding-top: 5%;
+        text-align: center;
+        padding-left: 25%;
+        padding-right: 25%;
+        
+    }
+}
+@media(max-width: 900px) {
+    main {
+        padding-top: 5%;
+        text-align: center;
+        padding-left: 16%;
+        padding-right: 17%;
+        
+    }
+}
+
+
 body{
     background-color: #1e1e1e;
 }
 main{
-    padding-left: 40%;
-    padding-right: 40%;
-    padding-top: 5%;
-    text-align: center;
+    
+
 }
 .lord{
     border-radius: 50%;
@@ -17,6 +60,9 @@ h1{
     color: white;
     font-family: 'Roboto', sans-serif;
     font-size: 43px;
+}
+.links{
+    width: 100%;
 }/*
 .button{
     background-image: linear-gradient(to left, #1d1fbf, #1950de, #0c76ec);
