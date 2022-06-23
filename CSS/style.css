@@ -1,211 +1,239 @@
-body, html{
+body,
+html {
     height: 100%;
-  }
-body{
+}
+
+body {
     background-color: #1e1e1e;
 }
-main{
+
+main {
     text-align: center;
     height: 100%;
 }
-.container{
-    padding-top: 5%;
-    padding-bottom: 5%;
-}
-.lord{
+
+.lord {
     border-radius: 50%;
     width: 200px;
     height: 200px;
-   padding-bottom: 1%;
+    padding-top: 15%;
+    padding-bottom: 1%;
 }
 
-h1{
+h1 {
     color: white;
     font-family: 'Roboto', sans-serif;
     font-size: 43px;
-    height: 80%;
-    width: 90%;
 }
-.links{
+
+.links {
     width: 100%;
     padding-bottom: 1%;
 }
-a{
+
+a {
     text-decoration: none;
     color: white;
 }
+
 /*Largura*/
 @media (max-width: 3000px) {
-    main{
+    main {
         padding-left: 40%;
         padding-right: 40%;
     }
-    .a{
+
+    .a {
         text-decoration: none;
         color: white;
         padding-left: 30%;
         padding-right: 35%;
-    
+
     }
 }
+
 @media (max-width: 1880px) {
-    main{
+    main {
         padding-left: 38%;
         padding-right: 38%;
         display: block;
     }
-    .a{
+
+    .a {
         text-decoration: none;
         color: white;
         padding-left: 30%;
         padding-right: 35%;
-    
+
     }
 }
+
 @media (max-width: 2000px) {
-    main{
+    main {
         padding-left: 40%;
         padding-right: 40%;
     }
-    .a{
+
+    .a {
         text-decoration: none;
         color: white;
         padding-left: 30%;
         padding-right: 35%;
-    
+
     }
 }
+
 @media (max-width: 1880px) {
-    main{
+    main {
         padding-left: 38%;
         padding-right: 38%;
     }
-    .a{
+
+    .a {
         text-decoration: none;
         color: white;
         padding-left: 30%;
         padding-right: 35%;
-    
+
     }
 }
+
 @media (max-width: 1567px) {
-    main{
+    main {
         padding-left: 34%;
         padding-right: 34%;
     }
-    .a{
+
+    .a {
         text-decoration: none;
         color: white;
         padding-left: 30%;
         padding-right: 35%;
-    
+
     }
 }
+
 @media (max-width: 1180px) {
-    main{
+    main {
         padding-left: 30%;
         padding-right: 30%;
     }
-    .a{
+
+    .a {
         text-decoration: none;
         color: white;
         padding-left: 30%;
         padding-right: 35%;
-    
+
     }
 }
+
 @media (max-width: 1000px) {
-    .lord{
+    .lord {
         border-radius: 50%;
         width: 200px;
         height: 200px;
-       padding-bottom: 1%;
+        padding-bottom: 1%;
     }
-    main{
+
+    main {
         padding-left: 25%;
         padding-right: 25%;
     }
-    .a{
+
+    .a {
         text-decoration: none;
         color: white;
         padding-left: 30%;
         padding-right: 35%;
-    
+
     }
 }
+
 @media (max-width: 760px) {
-    .lord{
+    .lord {
         border-radius: 50%;
         width: 200px;
         height: 200px;
-       padding-bottom: 1%;
+        padding-bottom: 1%;
     }
-    main{
+
+    main {
         padding-left: 20%;
         padding-right: 20%;
     }
-    .a{
+
+    .a {
         text-decoration: none;
         color: white;
         padding-left: 30%;
         padding-right: 35%;
-    
+
     }
 }
+
 @media (max-width: 640px) {
-    .lord{
+    .lord {
         border-radius: 50%;
         width: 200px;
         height: 200px;
-       padding-bottom: 1%;
+        padding-bottom: 1%;
     }
-    main{
+
+    main {
         padding-left: 15%;
         padding-right: 15%;
     }
-    .a{
+
+    .a {
         text-decoration: none;
         color: white;
         padding-left: 30%;
         padding-right: 35%;
-    
+
     }
 }
+
 @media (max-width: 550px) {
-    .lord{
+    .lord {
         border-radius: 50%;
         width: 200px;
         height: 200px;
-       padding-bottom: 1%;
+        padding-bottom: 1%;
     }
-    main{
+
+    main {
         padding-left: 10%;
         padding-right: 10%;
     }
-    .a{
+
+    .a {
         text-decoration: none;
         color: white;
         padding-left: 30%;
         padding-right: 35%;
-    
+
     }
 }
+
 @media (max-width: 480px) {
-    .lord{
+    .lord {
         border-radius: 50%;
         width: 200px;
         height: 200px;
-       padding-bottom: 1%;
+        padding-bottom: 1%;
     }
-    main{
+
+    main {
         padding-left: 3%;
         padding-right: 3%;
     }
-    .a{
+
+    .a {
         text-decoration: none;
         color: white;
         padding-left: 15%;
         padding-right: 15%;
-    
+
     }
 }
