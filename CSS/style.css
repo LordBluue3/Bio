@@ -15,9 +15,8 @@ main {
 .lord {
     border-radius: 50%;
     width: 200px;
-    height: 200px;
     padding-top: 15%;
-    padding-bottom: 1%;
+    padding-bottom: 5%;
 }
 
 h1 {
@@ -31,9 +30,49 @@ h1 {
     padding-bottom: 1%;
 }
 
-a {
+.btn {
+   
+    background-color: #1950de;
+    width: 80%;
+    padding: 15px 32px;
+    color: white;
+    font-weight: bold;
+    border: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 2%;
+}
+
+.btn.btn-primary:hover {
+    background-image: linear-gradient(to left, #1d1fbf, #1950de, #0c76ec);
+    width: 80%;
+    padding: 15px 32px;
+    font-weight: bold;
+    border: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 2%;
+    border-color: black;
+    color: black;
+    
+}
+img-svg:hover{
+    filter: invert(100%);
+}
+
+
+.a {
     text-decoration: none;
     color: white;
+}
+
+a:hover {
+    text-decoration: none;
+    color: black;
 }
 
 /*Largura*/
@@ -132,8 +171,7 @@ a {
     .lord {
         border-radius: 50%;
         width: 200px;
-        height: 200px;
-        padding-bottom: 1%;
+        padding-bottom: 5%;
     }
 
     main {
@@ -154,8 +192,7 @@ a {
     .lord {
         border-radius: 50%;
         width: 200px;
-        height: 200px;
-        padding-bottom: 1%;
+        padding-bottom: 5%;
     }
 
     main {
@@ -176,8 +213,7 @@ a {
     .lord {
         border-radius: 50%;
         width: 200px;
-        height: 200px;
-        padding-bottom: 1%;
+        padding-bottom: 5%;
     }
 
     main {
@@ -198,8 +234,7 @@ a {
     .lord {
         border-radius: 50%;
         width: 200px;
-        height: 200px;
-        padding-bottom: 1%;
+        padding-bottom: 5%;
     }
 
     main {
@@ -220,8 +255,7 @@ a {
     .lord {
         border-radius: 50%;
         width: 200px;
-        height: 200px;
-        padding-bottom: 1%;
+        padding-bottom: 5%;
     }
 
     main {
