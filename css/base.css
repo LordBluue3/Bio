@@ -1,0 +1,22 @@
+:root {
+    --branco: #FFFFFF;
+    --fundo: #1e1e1e;
+    --botao: #1950de;
+    --gradiente_azul-escuro: #1d1fbf;
+    --gradiente_azul: #1950de;
+    --gradiente_azul-claro: #0c76ec;
+    --cor_click-azul: #007bff;
+
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: var(--fundo);
+}
+hr{
+    border-top: 1px solid #333 !important;
+}
