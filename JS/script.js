@@ -10,5 +10,3 @@ function linkedin(){
 function discord(){
     window.location.href = "https://discord.com/users/295038299133837313";
 }
-
-
